@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/style.css">
   <title>Green Earth</title>
 
+  <!-- style sheet -->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- font intergation -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -13,14 +17,33 @@
     rel="stylesheet">
 
   <!-- Tailwind Css & DaisyUI Cdn -->
-<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
+
 <body>
-  
+  <header>
+
+    <!-- Navbar section start here -->
+
+    <div class="navbar bg-[#15803D] flex items-center justify-between px-20">
+      <div>
+        <h3 class="text-white font-bold">Green Earth</h3>
+      </div>
+      <div class="services text-white text-[12px] space-x-3">
+        <a href="">About</a>
+        <a href="">Gallery</a>
+        <a href="">Plant a Tree</a>
+      </div>
+      <button class="btn bg-[#FACC15] text-[#15803D] font-medium rounded-full py-3 px-5 border-0 shadow">Plant a Tree</button>
+    </div>
+  </header>
+
+
 
 
   <script src="index.js"></script>
 </body>
+
 </html>
