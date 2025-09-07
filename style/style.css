@@ -1,6 +1,43 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-*{
-  font-family: "Inter", sans-serif;
+* {
+  font-family: 'Inter', sans-serif;
 }
 
+
+.banner-container {
+  background-position: left, right;
+  background-size: 30% 100%, 30% 100%;
+}
+
+.impact-card{
+  text-align: center;
+  background-color: white;
+  padding: 20px 50px;
+  width: 0 auto;
+  border-radius: 12px;
+}
+.impact-card h1 {
+  color: #15803D;
+font-size: 45px;
+font-weight: 600;
+}
+.impact-card p{
+  color: #1F2937;
+}
+
+
+
+/* responsive for mobile */
+
+@media (max-width: 580px) {
+
+  .navbar{
+  padding: 0 15px;
+}
+
+  .banner-container{
+    background-image: none;
+  }
+
+}
