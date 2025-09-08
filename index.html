@@ -54,7 +54,7 @@
 
     <!-- Campaign Section Start Here -->
 
-    <section class="campaign-container p-20 lg:py-20 px-40 my-0 mx-auto">
+    <section class="campaign-container py-20 px-40 my-0 ">
       <h1 class="text-center text-3xl font-semibold mb-10">About the Campaign</h1>
       <div class="flex flex-col lg:flex-row justify-center items-center gap-10 ">
         <img class="" src="./assets/about.png" alt="">
@@ -74,24 +74,40 @@
       </div>
     </section>
 
-      <!-- Impact Section Start Here -->
-      <section class="impact-container bg-[#CFF0DC] px-20 py-10 flex flex-col items-center">
-        <h1 class="text-center text-3xl font-semibold p-10">Our Impact</h1>
-        <div class="flex flex-col lg:flex-row items-center  gap-12">
-          <div class="impact-card">
-            <h1>500K+</h1>
-            <p>Trees Planted</p>
-          </div>
-          <div class="impact-card">
-            <h1>120+</h1>
-            <p>Communities Involved</p>
-          </div>
-          <div class="impact-card">
-            <h1>30+</h1>
-            <p>Countries Reached</p>
-          </div>
+    <!-- Impact Section Start Here -->
+    <section class="impact-container bg-[#CFF0DC] px-20 py-10 flex flex-col items-center">
+      <h1 class="text-center text-3xl font-semibold p-10">Our Impact</h1>
+      <div class="flex flex-col lg:flex-row items-center  gap-12">
+        <div class="impact-card">
+          <h1>500K+</h1>
+          <p>Trees Planted</p>
         </div>
-      </section>
+        <div class="impact-card">
+          <h1>120+</h1>
+          <p>Communities Involved</p>
+        </div>
+        <div class="impact-card">
+          <h1>30+</h1>
+          <p>Countries Reached</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plant Section Start Here -->
+    <section class="plant-container flex flex-col justify-center items-center p-10 bg-[#166534]">
+      <h1 class=" text-white text-2xl font-semibold mb-10">Plant a Tree Today</h1>
+      <div class="bg-[#15803D] p-10 rounded-2xl flex flex-col gap-4 min-w-[400px]">
+        <input class="bg-white text-[#1F2937] border-0 rounded-[10px] py-3 px-4" placeholder="Your Name" type="text">
+        <input class="bg-white text-[#1F2937] border-0 rounded-[10px] py-3 px-4" placeholder="Your Name" type="text">
+        <select class="select bg-white text-[#1F2937] border-0 rounded-[10px]">
+          <option disabled selected>Number of Trees</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <button class="btn bg-[#FACC15] text-[#15803D] font-medium rounded-full py-3 px-5 border-0 shadow">Donate Now</button>
+      </div>
+    </section>
   </main>
 
   <script src="index.js"></script>

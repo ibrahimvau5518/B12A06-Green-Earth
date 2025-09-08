@@ -27,7 +27,6 @@ font-weight: 600;
 }
 
 
-
 /* responsive for mobile */
 
 @media (max-width: 580px) {
@@ -35,6 +34,11 @@ font-weight: 600;
   .navbar{
   padding: 0 15px;
 }
+
+.campaign-container{
+ padding: 40px 80px;  
+}
+
 
   .banner-container{
     background-image: none;
