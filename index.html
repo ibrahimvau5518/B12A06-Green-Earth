@@ -52,6 +52,40 @@
         Involved</button>
     </section>
 
+
+    <!-- Tree Section -->
+    <section class="tree-section border-2 border-red-500 w-full py-10  px-15">
+      <h1 class="text-3xl font-semibold text-center mb-6">Choose Your Trees</h1>
+      <div class="border-2 border-blue-500 grid grid-cols-12 justify-between gap-5">
+
+        <!-- categories -->
+        <div class="border-2 border-green-500 col-span-2">
+          <h2 class="text-2xl font-semibold mb-4">Categories</h2>
+          <div id="cat-list">
+            <!-- dynamic category btn here -->
+          </div>
+        </div>
+
+
+        <!-- Card Container -->
+        <div id="card-container" class="col-span-8  grid grid-cols-3 gap-5">
+        <div class="card-wraper gap-5">
+          <!-- dynamic cards here -->
+           
+          
+        </div>
+        </div>
+
+
+        <!-- Add to cart -->
+        <div class="add-cart-container col-span-2 bg-amber-400 h-[800px]">
+
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- Campaign Section Start Here -->
 
     <section class="campaign-container py-20 px-40 my-0 ">
@@ -75,7 +109,7 @@
     </section>
 
     <!-- Impact Section Start Here -->
-    <section class="impact-container bg-[#CFF0DC] px-20 py-10 flex flex-col items-center">
+    <section class="impact-container bg-[#CFF0DC] px-20 pb-12 flex flex-col items-center">
       <h1 class="text-center text-3xl font-semibold p-10">Our Impact</h1>
       <div class="flex flex-col lg:flex-row items-center  gap-12">
         <div class="impact-card">
@@ -105,12 +139,18 @@
           <option>2</option>
           <option>3</option>
         </select>
-        <button class="btn bg-[#FACC15] text-[#15803D] font-medium rounded-full py-3 px-5 border-0 shadow">Donate Now</button>
+        <button class="btn bg-[#FACC15] text-[#15803D] font-medium rounded-full py-3 px-5 border-0 shadow">Donate
+          Now</button>
       </div>
     </section>
   </main>
 
-  <script src="index.js"></script>
+  <!-- Footer Section Start Here -->
+  <footer class="bg-[#14532D] text-white text-center py-6">
+    <p>© 2025 Green Earth. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script/index.js"></script>
 </body>
 
 </html>
