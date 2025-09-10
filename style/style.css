@@ -3,14 +3,18 @@
 * {
   font-family: 'Inter', sans-serif;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .banner-container {
   background-position: left, right;
   background-size: 30% 100%, 30% 100%;
 }
 
-.impact-card{
+.impact-card {
   text-align: center;
   background-color: white;
   padding: 20px 50px;
@@ -18,30 +22,65 @@
   border-radius: 12px;
 }
 .impact-card h1 {
-  color: #15803D;
-font-size: 45px;
-font-weight: 600;
+  color: #15803d;
+  font-size: 45px;
+  font-weight: 600;
 }
-.impact-card p{
-  color: #1F2937;
+.impact-card p {
+  color: #1f2937;
 }
 
+.active {
+  background-color: #15803d;
+  color: white;
+}
 
 /* responsive for mobile */
 
 @media (max-width: 580px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
-  .navbar{
-  padding: 0 15px;
-}
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
-.campaign-container{
- padding: 40px 80px;  
-}
+  .banner-container h1 {
+    font-size: 1.5rem;
+  }
 
+  .campaign-container {
+    padding: 1rem;
+  }
 
-  .banner-container{
+  .impact-container {
+    padding: 1rem;
+  }
+
+  .banner-container {
     background-image: none;
   }
 
+  .tree-section {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+  }
+
+  .category-container {
+    grid-template-columns: 1fr;
+  }
+
+  #card-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
